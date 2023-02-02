@@ -4,7 +4,7 @@ docker.io/intel/intel-sgx-initcontainer:0.25.1
 docker.io/kubegems/ai-model-sync:v1.16
 docker.io/kubegems/alertmanager:v0.25.0
 docker.io/kubegems/alertproxy:v0.4.0
-docker.io/kubegems/appstore-charts:v1.23.0
+docker.io/kubegems/appstore-charts:v1.23.1
 docker.io/kubegems/argo-cd:2.3.4-debian-10-r2
 docker.io/kubegems/argo-rollouts:v1.2.0
 docker.io/kubegems/bitnami-shell:10-debian-10-r432
@@ -15,7 +15,7 @@ docker.io/kubegems/cert-manager-ctl:v1.8.0
 docker.io/kubegems/cert-manager-webhook:v1.8.0
 docker.io/kubegems/chartmuseum:v0.14.0
 docker.io/kubegems/configmap-reload:v0.4.0
-docker.io/kubegems/dashboard:v1.23.0
+docker.io/kubegems/dashboard:v1.23.1
 docker.io/kubegems/elasticsearch:7.17.1
 docker.io/kubegems/fluent-bit:1.8.8-largebuf
 docker.io/kubegems/fluentd:v1.13.3-alpine-11.1
@@ -37,7 +37,7 @@ docker.io/kubegems/kruise-manager:v1.2.0
 docker.io/kubegems/kube-rbac-proxy:v0.8.0
 docker.io/kubegems/kube-state-metrics:v2.7.0
 docker.io/kubegems/kubectl:latest
-docker.io/kubegems/kubegems:v1.23.0
+docker.io/kubegems/kubegems:v1.23.1
 docker.io/kubegems/kubernetes-event-exporter:1.1.0-debian-11-r0
 docker.io/kubegems/local-path-provisioner:v0.0.22
 docker.io/kubegems/logging-operator:3.17.6
