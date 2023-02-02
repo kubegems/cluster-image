@@ -22,7 +22,7 @@ spec:
   values:
     clusterName: "manager-cluster"
     kubegemsVersion: v1.23.1
-    imageRegistry: docker.io
+    imageRegistry: registry.cn-beijing.aliyuncs.com
     imageRepository: "kubegems"
     storageClass: local-hostpath 
 ---
