@@ -18,11 +18,10 @@ spec:
   kind: template
   url: https://charts.kubegems.io/kubegems
   chart: global
-  version: "1.0.1"
+  version: "1.0.0"
   values:
     clusterName: "manager-cluster"
-    kubegemsVersion: v1.23.1
-    imageRegistry: registry.cn-beijing.aliyuncs.com
+    imageRegistry: docker.io
     imageRepository: "kubegems"
     storageClass: local-hostpath 
 ---
@@ -38,7 +37,7 @@ spec:
   kind: helm
   url: https://charts.kubegems.io/kubegems
   installNamespace: kubegems
-  version: 1.23.1
+  version: 1.23.2
   valuesFrom:
     - kind: ConfigMap
       name: "kubegems-global-values"
